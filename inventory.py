@@ -1,11 +1,13 @@
 from tkinter import *  
 from tkinter import messagebox
 
+#___Layout___#
 w = Tk()
 w.title("Grocery Store")
 w.configure(bg="black")
 w.geometry("1300x700")
 w.resizable(height=False, width=False)
+w.title("Inventory")
 
 #___Functions___#
 
