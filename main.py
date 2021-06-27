@@ -10,7 +10,7 @@ def inventory():
     import inventory
 
 def bill():
-    return 
+    import bill
 
 font = ("JetBrains Mono", 20, "bold")
 
