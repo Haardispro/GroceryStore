@@ -31,7 +31,7 @@ def btn2():
 #Add everthing at once
 def add_all():
     if item_name.get() == "" or amount.get() == "" or value.get() == "":
-        messagebox.showwarning("Warning", "Empty value not accepted")
+        messagebox.showwarning("Warning", "Empty va|lue not accepted")
     else:
         listbox.insert(END, item_name.get())
         listbox1.insert(END, amount.get())
