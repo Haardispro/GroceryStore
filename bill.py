@@ -44,12 +44,12 @@ paid = Entry(w, width=20, font=font)
 print_button = Button(w, text="Print", font=font, command=printbill)
 
 #___Positions___#
-head.grid(row=0, column=0)
-name_lab.grid(row=1, column=0)
-name.grid(row=1, column=1)
-paid_lab.grid(row=2, column=0)
-paid.grid(row=2, column=1)
-print_button.grid(row=3, column=0)
+head.grid(row=0, column=0, padx=10, pady=10)
+name_lab.grid(row=1, column=0, padx=10, pady=10)
+name.grid(row=1, column=1, padx=10, pady=10)
+paid_lab.grid(row=2, column=0, padx=10, pady=10)
+paid.grid(row=2, column=1, padx=10, pady=10)
+print_button.grid(row=3, column=0, padx=10, pady=10)
 
 
 
