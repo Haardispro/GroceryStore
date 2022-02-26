@@ -4,13 +4,13 @@
 
 Clone this repo: 
 
-```bash
+```shell
 git clone https://github.com/Haardispro/GroceryStore
 ```
 
 Run the file: 
 
-```bash
+```shell
 python main.py
 ```
 
