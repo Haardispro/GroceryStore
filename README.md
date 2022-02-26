@@ -19,5 +19,3 @@ Dependencies:
 - Python 3
 
 - Tkinter 
-
-- 
