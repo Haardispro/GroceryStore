@@ -4,7 +4,7 @@ from tkinter import messagebox
 #___Layout___#
 w = Tk()
 w.title("Grocery Store")
-w.configure(bg="black")
+w.configure(bg="#282828")
 w.geometry("1300x700")
 w.resizable(height=False, width=False)
 w.title("Inventory")
@@ -52,13 +52,13 @@ def delete_item2():
     listbox2.delete(ANCHOR)
 
 #___Fonts___#
-f1 = ("JetBrains Mono", 20, "bold")
-list_f1 = ("JetBrains Mono", 15, "bold")
+f1 = ("Cascadia Code", 20, "bold")
+list_f1 = ("Cascadia Code", 15, "bold")
 
 #___Column Name___#
-a = Label(w, text="Item Name", font=f1, fg='White', bg="black")
-b = Label(w, text="Number of items", font=f1, fg='White', bg="black")
-c = Label(w, text="Value(for 1 item)", font=f1, fg='White', bg="black")
+a = Label(w, text="Item Name", font=f1, fg='White', bg="#282828")
+b = Label(w, text="Number of items", font=f1, fg='White', bg="#282828")
+c = Label(w, text="Value(for 1 item)", font=f1, fg='White', bg="#282828")
 
 
 #___Listbox___#
