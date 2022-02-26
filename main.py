@@ -22,5 +22,5 @@ inv.grid(row=1, column=0, padx=50, pady=30)
 bill = Button(s, text="Open Billing software",font=font, command=bill)
 bill.grid(row=2, column=0, padx=50, pady=30)
 
-    
+#update     
 s.mainloop()
