@@ -19,3 +19,9 @@ Dependencies:
 - Python 3
 
 - Tkinter 
+
+Things left to do: 
+
+- [ ] Connect the front end with a database
+
+- [x] Create a UI
